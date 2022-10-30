@@ -5,15 +5,15 @@ Config.dropPlayer           = true -- Drops player if their client and server pl
 Config.useMysqlAsync        = true
 Config.useGhmattimysql      = false
 Config.Identifier           = 'license:'
-Config.databaseName         = 'owned_vehicles'
+Config.databaseName         = 'player_vehicles'
 
 -- Config Variables (Framework)
 Config.Standalone           = true
 Config.useESX               = false
 
 -- Config Variables (Plates)
-Config.ownerRestricted      = false -- Only allow vehicle owner to apply fake plate.
-Config.restrictCommands     = false 
+Config.ownerRestricted      = true -- Only allow vehicle owner to apply fake plate.
+Config.restrictCommands     = true 
 Config.allowMultipleFakes   = false -- Lets players use fake plates more than once.
 
 -- Config Variables (Debug)
